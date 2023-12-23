@@ -1,0 +1,46 @@
+.contact {
+    margin-bottom: 100px;
+}
+.container {
+}
+.contact-content {
+    display: flex;
+}
+.contact-number {
+}
+.contact-title {
+    color: #151515;
+    font-family: 'Literata',sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.contact-img {
+
+}
+.contact-map {
+    margin-left: 40px;
+    margin-top: 0px;
+
+
+}
+
+iframe{
+    width: 45vw;
+    height: 55vh;
+}
+
+@media (max-width: 900px) {
+    .contact-img {
+        padding-top: 30px;
+        width: 80%;
+    }
+
+    .contact-map {
+        margin-left: -25px;
+        margin-top: 0px;
+    }
+    .contact-title {
+        margin-top: 60px;
+    }
+}
